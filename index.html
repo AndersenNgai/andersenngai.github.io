@@ -3,18 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Final Project</title>
+    <title>KKCF Wireframe</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
-    <p>Lorem ipsum sin dolor amet.</p>
-    <div id="fulltext">
-        <p>Quae sunt verba scripta sunt huc? Nescio.</p>
-        <p>Verba non sun Latinus verus, sunt quisqualia.</p>
-        <p>Animalia barbarique istud genus Latini loquuntur.</p>
-        <p>Vera lingua latina optima est et de deis venit.</p>
-    </div>
-    <button>Press to show the full text</button>
+    <nav class = "container-fluid">
+        <div class = "row" id = "navbar" style = "margin-right: 0px;">
+            <div class = "col-md-4" id = "logo">
+                <img src="companylogo.png">
+                <span>Andersen's Company</span>
+            </div>
+            <div class = "col-4"></div>
+            <a class = "col-sm-1" href = "#" target = "_blank">Home</a>
+            <a class = "col-sm-1" href = "#" target = "_blank">About</a>
+            <a class = "col-sm-1" href = "#" target = "_blank">News</a>
+            <a class = "col-sm-1" href = "#" target = "_blank">Contact</a>
+        </div>
+    </nav>
+    <main>
+        <a class = "article" target = "_blank">
+            <div class = "placeholder-image"
+            style = "padding-top: 80px; color: #000000; text-align: center;">An image goes here</div>
+            <p>Lorem ipsum sin dolor amet. <button>Press to show the full text</button></p>
+        </a>
+        <a class = "article longlorem" href = "#" target = "_blank">
+            <div class = "placeholder-image"></div>
+            <p>Quae sunt verba scripta sunt huc? Nescio.</p>
+        </a>
+        <a class = "article longlorem" href = "#" target = "_blank">
+            <div class = "placeholder-image"></div>
+            <p>Animalia barbarique istud genus Latini loquuntur.</p>
+        </a>
+        <a class = "article longlorem" href = "#" target = "_blank">
+            <div class = "placeholder-image"></div>
+            <p>Vera lingua latina optima est et de deis venit.</p>
+        </a>
+        
+    </main>
     <script src="script.js"></script>
 </body>
 </html>

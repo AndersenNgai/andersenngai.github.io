@@ -1,13 +1,15 @@
 let button = document.querySelector("button");
+function showLorem(lor){lor.style.display = "block";}
+function hideLorem(lor){lor.style.display = "none";}
 function loremButton(){
-    let longLorem = document.getElementById("fulltext");
-    if (longLorem.style.display == "none" || longLorem.style.display == ""){
-        longLorem.style.display = "block";
+    let longLorem = document.querySelectorAll(".longlorem");
+    if (button.innerText == "Press to show the full text"){
         button.innerText = "Press to hide the full text";
+        longLorem.forEach(showLorem);
     }
     else{
-        longLorem.style.display = "none";
         button.innerText = "Press to show the full text";
+        longLorem.forEach(hideLorem);
     }
 }
 button.addEventListener("click", loremButton);
