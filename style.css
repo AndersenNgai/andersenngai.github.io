@@ -11,13 +11,16 @@ img{width: 100px; height: auto;}
 #darkmode:hover, #lightmode:hover{cursor: pointer; text-decoration: underline;}
 
 main{
-    margin: 50px 5%;
+    margin: 30px 5%;
     padding: 20px 10px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 p{margin: 3px;}
+
+header{background-color: #F68E5F; font-size: 50px; text-align: center; padding: 7px;}
+
 a[class="article"]{display: block;}
 .article{width: 300px; margin: 40px 20px; background-color: #324376;}
 .article:hover{text-decoration: none;}

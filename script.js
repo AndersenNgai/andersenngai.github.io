@@ -7,6 +7,11 @@ function activateDarkMode(){
     document.querySelector("body").style.backgroundColor = "#000000";
     articles = document.querySelectorAll(".article");
     articles.forEach(articlesLightBlue);
+    let header = document.querySelector("header");
+    if (header != null){
+        header.style.backgroundColor = "#324376";
+        header.style.color = "#ffffff";
+    }
     darkModeButton.style.display = "none";
     lightModeButton.style.display = "inline";
 }
@@ -24,6 +29,11 @@ function activateLightMode(){
     document.querySelector("body").style.backgroundColor = "#F5DD90";
     articles = document.querySelectorAll(".article");
     articles.forEach(articlesDarkBlue);
+    let header = document.querySelector("header");
+    if (header != null){
+        header.style.backgroundColor = "#F68E5F";
+        header.style.color = "#000000";
+    }
     lightModeButton.style.display = "none";
     darkModeButton.style.display = "inline";
 }
