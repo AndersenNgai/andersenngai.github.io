@@ -8,7 +8,7 @@ img{width: 100px; height: auto;}
 #navbar a{color: #000000; text-align: center;}
 #logo{display: inline-block;}
 #lightmode{display: none;}
-#darkmode:hover, #lightmode:hover{cursor: pointer;}
+#darkmode:hover, #lightmode:hover{cursor: pointer; text-decoration: underline;}
 
 main{
     margin: 50px 5%;
