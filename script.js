@@ -16,7 +16,11 @@ function activateDarkMode(){
     let text = document.getElementById("text");
     if (text != null){text.style.backgroundColor = "#324376"}
     let aside = document.querySelector("aside");
-    if (aside != null){aside.style.backgroundColor = "#324376"}
+    if (aside != null){
+        aside.style.backgroundColor = "#568BA4"
+        let interested = document.getElementById("interested");
+        interested.style.backgroundColor = "#324376";
+    }
     darkModeButton.style.display = "none";
     lightModeButton.style.display = "inline";
 }
@@ -28,7 +32,7 @@ darkModeButton.addEventListener("click", activateDarkMode);
 function activateLightMode(){
     document.querySelector("body").style.color = "#000000";
     let navbar = document.querySelector("nav");
-    navbar.style.backgroundColor = "#F76C5E";
+    navbar.style.backgroundColor = "#d5594e";
     navbar.style.color = "#000000";
     let navbarLinks = document.querySelectorAll("#navbar a");
     navbarLinks.forEach(navbarLinksBlack);
@@ -43,7 +47,11 @@ function activateLightMode(){
     let text = document.getElementById("text");
     if (text != null){text.style.backgroundColor = "#F68E5F"}
     let aside = document.querySelector("aside");
-    if (aside != null){aside.style.backgroundColor = "#F68E5F"}
+    if (aside != null){
+        aside.style.backgroundColor = "#F68E5F"
+        let interested = document.getElementById("interested");
+        interested.style.backgroundColor = "#d5594e";
+    }
     lightModeButton.style.display = "none";
     darkModeButton.style.display = "inline";
 }
