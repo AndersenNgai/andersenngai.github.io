@@ -1,6 +1,7 @@
 html{height: 100%; width: 100%;}
 *{font-family: "Lexend", sans-serif;}
 body{background-color: #F5DD90;}
+p{margin: 3px 3px 15px;}
   
 nav{background-color: #F76C5E; padding: 5px;}
 img{width: 100px; height: auto;}
@@ -10,14 +11,17 @@ img{width: 100px; height: auto;}
 #lightmode{display: none;}
 #darkmode:hover, #lightmode:hover{cursor: pointer; text-decoration: underline;}
 
-main{
-    margin: 30px 5%;
-    padding: 20px 10px;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+#gallery{
+  margin: 30px 5%;
+  padding: 20px 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
-p{margin: 3px;}
+#gallery p{margin: 2px;}
+main{margin: 30px 5%;}
+main.container-fluid{padding: 0px 5%;}
+main .row{margin: 0px;}
 
 header{background-color: #F68E5F; font-size: 50px; text-align: center; padding: 7px;}
 
@@ -27,3 +31,7 @@ a[class="article"]{display: block;}
 .article img{width: 100%;}
 .article p{padding: 5px; color: #FFFFFF; text-align: center;}
 .placeholder-image{width: 100%; height: 200px; background-color: #F68E5F;}
+
+#text{padding: 5px; background-color: #F68E5F;}
+aside.col-4{padding: 0px; background-color: #F68E5F;}
+#interested{margin: 5px; text-align: center; font-size: 18px;}
