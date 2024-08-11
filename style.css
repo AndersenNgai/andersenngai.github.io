@@ -1,8 +1,8 @@
 html{height: 100%; width: 100%;}
 *{font-family: "Lexend", sans-serif;}
 body{background-color: #F5DD90;}
-p{margin: 3px 3px 15px;}
-img{display: block; width: 50%; margin: 15px auto;}
+p{margin: 15px 3px 15px;}
+img{display: block; width: 50%; margin-left: auto; margin-right: auto;}
 
 nav{background-color: #d5594e; padding: 5px;}
 nav img{display: inline; margin: 0px; width: 100px; height: auto;}
