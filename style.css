@@ -22,6 +22,7 @@ img{width: 100px; height: auto;}
 main{margin: 30px 5%;}
 main.container-fluid{padding: 0px 5%;}
 main .row{margin: 0px;}
+main .row .col-7{margin-bottom: 30px;}
 
 header{background-color: #F68E5F; font-size: 50px; text-align: center; padding: 7px;}
 
@@ -33,7 +34,7 @@ a[class="article"]{display: block;}
 .placeholder-image{width: 100%; height: 200px; background-color: #F68E5F;}
 
 #text{padding: 5px; background-color: #F68E5F;}
-aside.col-4{padding: 0px; background-color: #F68E5F;}
+aside.col-4{margin-bottom: 30px; padding: 0px; background-color: #F68E5F;}
 #interested{margin-bottom: 15px; padding: 5px; background-color:#d5594e;
   text-align: center; font-size: 18px; color: inherit;}
 aside a{color: inherit;}
