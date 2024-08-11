@@ -24,6 +24,7 @@ main{margin: 30px 5%;}
 main.container-fluid{padding: 0px 5%;}
 main .row{margin: 0px;}
 main .row .col-7{margin-bottom: 30px;}
+main .row .col-7 p:first-child{margin-top: 3px;}
 
 header{background-color: #F68E5F; font-size: 50px; text-align: center; padding: 7px;}
 
